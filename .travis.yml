@@ -1,5 +1,7 @@
 ---
 sudo: false
+services:
+- rabbitmq
 language: ruby
 cache: bundler
 matrix:
